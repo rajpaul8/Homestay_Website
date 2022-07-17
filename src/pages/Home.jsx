@@ -3,14 +3,9 @@ import HomeBackground from "../assets/Home_background_Gif.gif";
 import NatureIcon from "../assets/natureIcon.png";
 import FoodIcon from "../assets/FoodIcon.png";
 import LocationIcon from "../assets/locationIcon.png";
-import NatureViewImageThirdSection from "../assets/natureViewThirdSection.JPG";
-import WifiIcon from "../assets/wifiIcon.png";
-import FurnishedIcon from "../assets/furnishedIcon.png";
-import MealIcon from "../assets/mealIcon.png";
-import ParkingIcon from "../assets/parkingIcon.png";
-import VinayPic from "../assets/Testemonies_Pics/Vinay_Review.jpg";
-import RajPic from "../assets/Testemonies_Pics/Raj_Review.jpg";
-import ManishPic from "../assets/Testemonies_Pics/Manish_Review.jpg";
+import WhyChooseUs from "../components/WhyChooseUs";
+import Testimony from "../components/Testimony";
+
 
 function Home() {
   return (
@@ -42,7 +37,7 @@ function Home() {
         </div>
       </div>
       {/* Section 2 Home-Page */}
-      <div className="py-16 bg-gradient-to-br from-blue-50 to-blue-100 overflow-hidden">
+      <div className="py-16 bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
         <div className="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
           <div>
             <span className="block w-max mx-auto py-2 px-4 rounded-xl bg-gray-600 bg-opacity-75 text-white text-sm font-semibold">
@@ -136,182 +131,10 @@ function Home() {
         </div>
       </div>
       {/* Section 3 Home-Page */}
-      <div className="border-b">
-        <div className="mt-1 md:mt-0 container m-auto px-6 border-r border-l md:px-12  lg:pt-[4.8rem] lg:px-7">
-          <div className="flex items-center flex-wrap gap-12 px-2 md:px-0">
-            <div className="lg:w-6/12 lg:-ml-7">
-              <div className="relative">
-                <img
-                  src={NatureViewImageThirdSection}
-                  alt="shoes"
-                  loading="lazy"
-                  width="640"
-                  height="640"
-                />
-                {/* <div className="absolute bottom-2 right-2 bg-white">
-                  
-                </div> */}
-              </div>
-            </div>
-
-            <div className="relative lg:w-6/12 lg:-ml-20">
-              <h1 className=" flex justify-center font-bold text-4xl sm:text-4xl md:text-4xl xl:text-4xl">
-                Why Choose Us <span className="text-gray-800">?</span>
-              </h1>
-              <div className="mt-6 space-y-8 lg:ml-32">
-                <p className="text-gray-700">
-                  <h2 className="mt-1 text-center text-xl text-gray-600 font-bold md:text-xl">
-                    We pride ourselves on a high standard of friendly cheerful
-                    service which caters to the needs of the whole family.
-                    <br className="sm:block" hidden />
-                  </h2>
-                </p>
-                <div className="flex justify-between ">
-                  <p
-                    title="Start buying"
-                    className="w-full py-3 px-6 text-center rounded-full transition duration-300 bg-gray-100 focus:bg-cyan-800 sm:w-max"
-                  >
-                    <span className="block text-black text-sm">
-                      <img src={WifiIcon} alt="wifi icon" className="h-6" />
-                      Wifi
-                    </span>
-                  </p>
-                  <p
-                    title="Start buying"
-                    className="w-full py-3 px-6 text-center rounded-full transition duration-300 bg-gray-100 focus:bg-cyan-800 sm:w-max"
-                  >
-                    <span className="block text-black text-sm">
-                      <img
-                        src={FurnishedIcon}
-                        alt="wifi icon"
-                        className="h-6 pl-4"
-                      />
-                      Furnished
-                    </span>
-                  </p>
-                  <p
-                    title="Start buying"
-                    className="w-full py-3 px-6 text-center rounded-full transition duration-300 bg-gray-100 focus:bg-cyan-800 sm:w-max"
-                  >
-                    <span className="block text-black text-sm">
-                      <img
-                        src={MealIcon}
-                        alt="wifi icon"
-                        className="h-6 pl-3"
-                      />
-                      3 Meals
-                    </span>
-                  </p>
-
-                  <p
-                    title="Start buying"
-                    className="w-full py-3 px-6 text-center rounded-full transition duration-300 bg-gray-100 focus:bg-cyan-800 sm:w-max"
-                  >
-                    <span className="block text-black text-sm">
-                      <img
-                        src={ParkingIcon}
-                        alt="wifi icon"
-                        className="h-6 pl-5"
-                      />
-                      Free Parking
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <WhyChooseUs></WhyChooseUs>
 
       {/* Section 4 Testemonies */}
-      <div className="py-16 white">
-        <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-          <h2 className="mb-12 text-center text-2xl text-gray-900 font-bold md:text-4xl">
-            Here It From Our Customers
-          </h2>
-          <div className="grid gap-8 md:grid-rows-2 lg:grid-cols-2">
-            <div className="row-span-2 p-6 border border-gray-100 rounded-xl bg-gray-50 text-center sm:p-8">
-              <div className="h-full flex flex-col justify-center space-y-4">
-                <img
-                  className="w-20 h-20 mx-auto rounded-full"
-                  src={VinayPic}
-                  alt="user avatar"
-                  height="220"
-                  width="220"
-                  loading="lazy"
-                />
-                <p className="text-gray-600 md:text-xl">
-                  {" "}
-                  <span className="font-serif">"</span> Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Quaerat repellat perspiciatis
-                  excepturi est. Non ipsum iusto aliquam consequatur repellat
-                  provident, omnis ut, sapiente voluptates veritatis cum
-                  deleniti repudiandae ad doloribus.{" "}
-                  <span className="font-serif">"</span>
-                </p>
-                <div>
-                  <h6 className="text-lg font-semibold leading-none">
-                    Vinnay Hudda
-                  </h6>
-                  <span className="text-xs text-gray-500">24-Jun-2022</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="p-6 border border-gray-100 rounded-xl bg-gray-50 sm:flex sm:space-x-8 sm:p-8">
-              <img
-                className="w-20 h-20 mx-auto rounded-full"
-                src={ManishPic}
-                alt="user avatar"
-                height="220"
-                width="220"
-                loading="lazy"
-              />
-              <div className="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
-                <p className="text-gray-600">
-                  {" "}
-                  <span className="font-serif">"</span> Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Quaerat repellat perspiciatis
-                  excepturi est. Non ipsum iusto aliquam consequatur repellat
-                  provident, omnis ut, sapiente voluptates veritatis cum
-                  deleniti repudiandae ad doloribus.
-                  <span className="font-serif">"</span>
-                </p>
-                <div>
-                  <h6 className="text-lg font-semibold leading-none">
-                    Manish Lohia
-                  </h6>
-                  <span className="text-xs text-gray-500">27-Jun-2022</span>
-                </div>
-              </div>
-            </div>
-            <div className="p-6 border border-gray-100 rounded-xl bg-gray-50 sm:flex sm:space-x-8 sm:p-8">
-              <img
-                className="w-20 h-20 mx-auto rounded-full"
-                src={RajPic}
-                alt="user avatar"
-                height="220"
-                width="220"
-                loading="lazy"
-              />
-              <div className="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
-                <p className="text-gray-600">
-                  <span className="font-serif">"</span> Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Quaerat repellat perspiciatis
-                  excepturi est. Non ipsum iusto aliquam consequatur repellat
-                  provident, omnis ut, sapiente voluptates veritatis cum
-                  deleniti repudiandae ad doloribus.{" "}
-                  <span className="font-serif">"</span>
-                </p>
-                <div>
-                  <h6 className="text-lg font-semibold leading-none">Raj Paul</h6>
-                  <span className="text-xs text-gray-500">03-Jul-2022</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Testimony></Testimony>
     </>
   );
 }

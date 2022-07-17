@@ -1,6 +1,4 @@
 import React from "react";
-import ExplorePageBackground from "../assets/ContactUsPage/contactUsPageBackground.jpg";
-import NatureViewImageThirdSection from "../assets/natureViewThirdSection.JPG";
 import { useState } from "react";
 
 function ContactUs() {
@@ -21,11 +19,11 @@ function ContactUs() {
       {/* Contact Form  */}
 
       <div
-        className="relative 
+        className="pt-16 pb-8 relative 
                 before:absolute before:inset-0 before:w-full before:h-[50%] before:bg-gray-200"
       >
         <div className="relative container m-auto px-6 text-gray-500 md:px-12 xl:px-40">
-          <div className="m-auto md:w-8/12 lg:w-full ">
+          <div className="m-auto pt-8 md:w-8/12 lg:w-full ">
             <div className="rounded-xl border bg-opacity-50 backdrop-blur-2xl bg-white shadow-xl ">
               <div className="lg:grid lg:grid-cols-2 mt-16 ">
                 <div className="rounded-lg lg:block" hidden>
