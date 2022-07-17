@@ -36,7 +36,7 @@ function Footer() {
               </li>
             </ul>
             <div className="w-max m-auto flex items-center justify-between space-x-4">
-              <a href="tel:+91 9637324569" aria-label="call">
+              <a href="tel:+91 9999451216" aria-label="call">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"

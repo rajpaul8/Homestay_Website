@@ -136,7 +136,7 @@ function Home() {
         </div>
       </div>
       {/* Section 3 Home-Page */}
-      <div className="border-b ">
+      <div className="border-b">
         <div className="mt-1 md:mt-0 container m-auto px-6 border-r border-l md:px-12  lg:pt-[4.8rem] lg:px-7">
           <div className="flex items-center flex-wrap gap-12 px-2 md:px-0">
             <div className="lg:w-6/12 lg:-ml-7">

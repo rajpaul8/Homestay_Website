@@ -7,8 +7,9 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   const toggleNavbar = () => {
-    setToggle((prevState)=>!prevState);
-}
+    setToggle((prevState) => !prevState);
+  };
+
   return (
     <>
       <nav className="fixed z-10 w-full border-b absolute md:bg-gray-900">
@@ -96,24 +97,21 @@ function Navbar() {
               </div>
 
               <div className="w-full space-y-2 border-blue-200 lg:space-y-0 md:w-max lg:border-l">
-                <button
-                  type="button"
-                  title="Start buying"
-                  className="w-full py-3 px-6 text-center rounded-full transition active:bg-blue-200 focus:bg-blue-100 sm:w-max"
+                <Link
+                  to="/contact-us"
+                  title="Contact Us"
+                  className="w-full py-3 px-6 text-center rounded-full transition active:text-blue-200 focus:text-blue-100 sm:w-max"
                 >
-                  <span className="block text-gray-400 font-semibold text-sm">
+                  <span
+                    className={
+                      location.pathname === "/contact-us"
+                        ? "block md:px-4 transition text-blue-400 hover:text-blue-400"
+                        : "block md:px-4 transition text-gray-400 hover:text-blue-400"
+                    }
+                  >
                     Contact Us
                   </span>
-                </button>
-                <button
-                  type="button"
-                  title="Start buying"
-                  className="w-full py-3 px-6 text-center rounded-xl transition bg-gray-700 hover:bg-blue-100 active:bg-blue-400 focus:bg-blue-300 sm:w-max"
-                >
-                  <span className="block text-gray-100 font-semibold text-sm">
-                    Book Now
-                  </span>
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -192,4 +190,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
