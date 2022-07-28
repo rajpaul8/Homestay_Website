@@ -26,7 +26,7 @@ function Explore() {
               </h1>
               <h3 className="mt-7 text-xl md:text-2xl text-white">
                 Escape from the hustle and hassle of your everyday routine and
-                come away to the Crazy Clouds
+                come away to the Homestay
               </h3>
             </div>
           </div>
@@ -57,7 +57,7 @@ function Explore() {
       {/* Section - 3 Tourist Places Near HomeStay */}
       <div className="mt-20 mb-1 container m-auto px-6 border-r border-l md:px-12  lg:pt-[4.8rem] lg:px-7">
         <h1 className="text-2xl text-center md:text-3xl font-bold ">
-          Tourist Places Nearby Crazy Clouds Homestay
+          Tourist Places Nearby Homestay 
         </h1>
 
         <p className="justify-center p-5 mx-auto text-center text-md text-gray-800 pt-5">

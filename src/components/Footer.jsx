@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../assets/logoCrazyClouds.png";
+import logo from "../assets/HomestayLogo.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
   const year = new Date().getFullYear();
   return (
     <>
-      <footer className="w-full py-16 bg-gray-900">
+      <footer className="w-full py-16 bg-gray-900 z-50">
         <div className="md:px-12 lg:px-28">
           <div className="container m-auto space-y-6 text-gray-200">
             <img src={logo} alt="logo tailus" className="w-40 m-auto" />
@@ -92,7 +92,7 @@ function Footer() {
 
             <div className="text-center">
               <span className="text-sm tracking-wide">
-                Copyright © Crazy Clouds <span id="year">{year}</span> | All
+                Copyright © Homestay <span id="year">{year}</span> | All
                 right reserved
               </span>
             </div>

@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Explore from "./pages/Explore";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
-
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <Route path="/explore" element={<Explore></Explore>}></Route>
           <Route path="/contact-us" element={<ContactUs></ContactUs>}></Route>
           <Route path="/about-us" element={<AboutUs></AboutUs>}></Route>
+          <Route path="/gallery" element={<Gallery></Gallery>}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

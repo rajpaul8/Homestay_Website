@@ -22,7 +22,7 @@ function Home() {
           <div className="relative container border-l border-r m-auto px-6 md:px-12 lg:px-7 ">
             <div className="py-40 lg:py-56 md:w-9/12 lg:w-7/12 ml-auto ">
               <h1 className="text-gray-900 font-bold text-4xl md:text-6xl lg:text-4xl xl:text-6xl">
-                Crazy Clouds Homestay&nbsp;
+                Homestay&nbsp;
                 <span className="text-gray-700 text-3xl md:block md:text-5xl md:pt-3 ">
                   experience the sound of silence and peace
                 </span>

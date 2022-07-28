@@ -22,7 +22,7 @@ function AboutUs() {
               <h1 className="text-gray-900 text-center font-bold text-4xl md:text-6xl lg:text-4xl xl:text-6xl">
                 About &nbsp;
                 <span className="hidden md:text-gray-700 text-3xl md:block md:text-5xl md:pt-3 ">
-                  Crazy Clouds Homestay
+                  Homestay 
                 </span>
               </h1>
             </div>
@@ -44,11 +44,11 @@ function AboutUs() {
             </div>
             <div className="md:7/12 lg:w-6/12">
               <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                Crazy clouds homestay welcomes you in a friendly and comfortable
+                Homestay welcomes you in a friendly and comfortable
                 environment
               </h2>
               <p className="mt-6 text-gray-600">
-                Crazy Clouds Homestay is a place where the mind, body, and soul
+                Homestay is a place where the mind, body, and soul
                 can join together harmoniously. Situated up in the foothills of
                 the Himalayan Mountains, the natural atmosphere will inspire you
                 to delve deeper into yourself. ​ We are located in India near
@@ -82,7 +82,7 @@ function AboutUs() {
             <span className="text-xl">
               CALL US AT
               <br></br>
-              <span className="text-2xl text-yellow-300">+91 9999451216</span>
+              <span className="text-2xl text-yellow-300">+91 9XXXXXXXXX</span>
             </span>
           </h2>
 
