@@ -79,7 +79,7 @@ function ContactUs() {
                     <a
                       className="text-white py-3 mt-3 "
                       target="_blank"
-                      href={`mailto:vinayhudda@gmail.com?subject=Crazy Clouds Customer Query!&body=Description: ${formData.description}  Email: ${formData.mail}`}
+                      href={`mailto:rajpaul83@gmail.com?subject=Homestay Customer Query!&body=Description: ${formData.description}  Email: ${formData.mail}`}
                     >
                       <p
                         className="w-full py-3 mt-6 px-6 rounded-md bg-gray-600
@@ -90,10 +90,10 @@ function ContactUs() {
                     </a>
 
                     <p className="border-t pt-6 text-sm">
-                      Or call us at +91 9999451216 &nbsp;
+                      Or call us at +91 9XXXXXXXXX &nbsp;
                       <a
                         target="_blank"
-                        href="tel:+91 9999451216"
+                        href="tel:+91 9XXXXXXXXX"
                         className="text-sky-500 "
                       >
                         Happy Connecting!

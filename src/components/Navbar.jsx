@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logoCrazyClouds.png";
+import logo from "../assets/HomestayLogo.png";
 
 function Navbar() {
   const location = useLocation();
@@ -19,7 +19,7 @@ function Navbar() {
               <Link to="/">
                 <img
                   src={logo}
-                  alt="crazy clouds logo"
+                  alt="Homestay logo"
                   className="flex space-x-2 items-center h-10 rounded-md"
                 />
               </Link>
